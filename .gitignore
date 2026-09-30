@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.idea/
+.vscode/
+
+# datasets and model weights are downloaded from HuggingFace (see dataset/README.md, ckpt/README.md)
+dataset/*
+!dataset/README.md
+!dataset/dataset_info.json
+ckpt/*
+!ckpt/README.md
+
+# training / evaluation outputs
+output/
+wandb/
+.pytest_cache/
+
+# maintainer-only material, never published (normally kept outside this repo)
+provenance/
+release_tools/
+hf_uploaded/
+paper/
+*.study.db
+study.db
+tests/
+.ruff_cache/

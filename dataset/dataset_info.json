@@ -1,0 +1,102 @@
+{
+  "ecg": {
+    "file_name": "ecg/train.jsonl",
+    "ts_patch_size": 32,
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "ecg_ts_tags": {
+    "file_name": "ecg/train_with_ts_tags.jsonl",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "sleep": {
+    "file_name": "sleep/train.jsonl",
+    "ts_patch_size": 64,
+    "add_special_tokens": [
+      "<timeseries_selection_tool>",
+      "</timeseries_selection_tool>"
+    ],
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "sleep_ts_tags": {
+    "file_name": "sleep/train_with_ts_tags.jsonl",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "har": {
+    "file_name": "har/train.jsonl",
+    "ts_patch_size": 4,
+    "add_special_tokens": [
+      "<timeseries_selection_tool>",
+      "</timeseries_selection_tool>"
+    ],
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "har_ts_tags": {
+    "file_name": "har/train_with_ts_tags.jsonl",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "tsr": {
+    "file_name": "tsr/train.jsonl",
+    "add_special_tokens": [
+      "<timeseries_selection_tool>",
+      "</timeseries_selection_tool>"
+    ],
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "tsr_ts_tags": {
+    "file_name": "tsr/train_with_ts_tags.jsonl",
+    "add_special_tokens": [
+      "<timeseries_selection_tool>",
+      "</timeseries_selection_tool>"
+    ],
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "engine": {
+    "file_name": "engine/train.jsonl",
+    "ts_patch_size": 32,
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  },
+  "engine_ts_tags": {
+    "file_name": "engine/train_with_ts_tags.jsonl",
+    "columns": {
+      "prompt": "input",
+      "response": "output",
+      "timeseries": "timeseries"
+    }
+  }
+}

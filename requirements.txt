@@ -1,0 +1,22 @@
+# Tested with Python 3.11 and CUDA 12.x. Install PyTorch first, matching your CUDA version, e.g.
+#   pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1
+transformers==4.57.6
+tokenizers==0.22.2
+accelerate==1.7.0
+datasets==3.6.0
+peft==0.15.2
+trl==0.9.6
+deepspeed==0.16.9
+safetensors==0.7.0
+numpy==1.26.4
+scipy==1.17.1
+scikit-learn==1.7.2
+einops==0.8.2
+open-flamingo==2.0.1        # OpenTSLM-Flamingo backbone (gated cross-attention blocks)
+omegaconf==2.3.0
+pyyaml==6.0.3
+matplotlib==3.10.8
+tqdm==4.67.3
+wandb
+huggingface_hub[cli]
