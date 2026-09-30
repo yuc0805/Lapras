@@ -1,4 +1,4 @@
-# <img src="figures/lapras.png" width="60" align="absmiddle" alt="Lapras logo">&nbsp;&nbsp; Lapras: Latent Reasoning for Time Series Language Models
+## <img src="figures/lapras.png" width="40" align="absmiddle" alt="Lapras logo">&nbsp; Lapras: Latent Reasoning for Time Series Language Models
 
 <!-- TODO(release): authors, affiliations, arXiv link -->
 <p align="center">
