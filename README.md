@@ -1,8 +1,7 @@
 ## <img src="figures/lapras.png" width="40" align="absmiddle" alt="Lapras logo">&nbsp; Lapras: Latent Reasoning for Time Series Language Models
 
-<!-- TODO(release): authors, affiliations, arXiv link -->
 <p align="center">
-  <a href="<ARXIV_URL>"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2610.11111"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b.svg" alt="Paper"></a>
   <a href="https://huggingface.co/datasets/leochen085/Lapras-Reasoning-Datasets"><img src="https://img.shields.io/badge/HuggingFace-Datasets-yellow.svg" alt="Datasets"></a>
   <a href="https://huggingface.co/leochen085/Lapras"><img src="https://img.shields.io/badge/HuggingFace-Checkpoints-yellow.svg" alt="Checkpoints"></a>
 </p>
@@ -16,11 +15,6 @@ answer. It learns this through teacher–student self-distillation from referenc
 
 This repository trains and evaluates Lapras and the CoT baseline on three TSLM backbones (ChatTS-8B,
 OpenTSLM-1B, SLIP-1B) and five time series question answering benchmarks (ECG, Sleep, HAR, TSR, Engine).
-
-## News
-
-- **[2026]** Code release, with the [datasets](https://huggingface.co/datasets/leochen085/Lapras-Reasoning-Datasets)
-  and [Lapras checkpoints](https://huggingface.co/leochen085/Lapras) on HuggingFace.
 
 ## Contents
 
@@ -263,11 +257,13 @@ Lapras/
 ## Citation
 
 ```bibtex
-@inproceedings{lapras2027,
-  title     = {Lapras: Latent Reasoning for Time Series Language Models},
-  author    = {<AUTHORS>},
-  booktitle = {<VENUE>},
-  year      = {2027}
+@article{chen2026lapras,
+  title   = {Lapras: Latent Reasoning for Time Series Language Models},
+  author  = {Chen, Yuliang and Wu, Yu Yvonne and Langer, Patrick and Pillai, Arvind and Regmi, Sudarshan and
+             Maritsch, Martin and Liu, Juncheng and Jakob, Robert and Kaar, Thomas and Griffin, Tess Z. and
+             Marsch, Lisa and Heinz, Michael V. and Jacobson, Nicholas C. and Campbell, Andrew},
+  journal = {arXiv preprint arXiv:2610.11111},
+  year    = {2026}
 }
 ```
 
